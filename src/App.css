@@ -1,0 +1,92 @@
+.backk {
+  height: 80%;
+  background: #000;
+  position: relative;
+}
+
+.gradient-male {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+}
+
+.gradient-female {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  border: none;
+}
+
+.outline-button {
+  border: 2px solid #000;
+  background: transparent;
+  color: black;
+}
+
+.imge {
+  position: absolute;
+  top: 12%;
+  right: 18%;
+  z-index: 5;
+  width: 400px;
+  height: 600px;
+  padding: 10px;
+}
+
+.bakk {
+  background: linear-gradient(to bottom, #ff7eb3, #0072ff);
+  height: 540px;
+  width: 280px;
+  margin: 0 28px;
+}
+
+.BMI {
+  font-weight: 400;
+}
+
+.bmicount {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.subtitle {
+  color: white;
+}
+
+.input-field .MuiOutlinedInput-root {
+  border-radius: 5px;
+  background: transparent;
+}
+
+.input-field .MuiOutlinedInput-notchedOutline {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  border-image: linear-gradient(to right, #00c6ff, #0072ff) 1;
+}
+
+.input-field.female-input .MuiOutlinedInput-notchedOutline {
+  border-image: linear-gradient(to right, #ff758c, #ff7eb3) 1;
+}
+
+.input-field .MuiInputBase-input {
+  color: white !important;
+}
+
+.input-label {
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .bakk,.imge {
+    display: none;
+  }
+}
+
+.container-fluid {
+  padding: 0 15px;
+}
